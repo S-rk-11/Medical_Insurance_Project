@@ -28,8 +28,6 @@ bmi = st.sidebar.number_input("BMI", min_value=10.0, max_value=50.0, value=25.0,
 children = st.sidebar.number_input("Number of Children", min_value=0, max_value=10, value=0, step=1)
 smoker = st.sidebar.selectbox("Smoker", ["yes", "no"])
 region = st.sidebar.selectbox("Region", ["northeast", "northwest", "southeast", "southwest"])
-
-st.markdown("---")
             
 # Data Preprocessing (encoding)
 sex = 1 if sex == "male" else 0
