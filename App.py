@@ -16,7 +16,6 @@ st.markdown(
     Please fill in the form below and click **Predict**.
     """
 )
-
 st.markdown("---")
 
 # Sidebar for User inputs
