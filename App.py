@@ -41,7 +41,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title with GIF
-col1, col2, col3 = st.colums([1,3,1])
+col1, col2, col3 = st.columns([1,3,1])
 with col2:
     st.image("doc.gif", use_container_width=True)
 st.title("Medical Insurance Prediction")
