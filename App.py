@@ -45,8 +45,7 @@ col1, col2, col3 = st.colums([1,3,1])
 with col2:
     st.image("doc.gif", use_container_width=True)
 st.title("Medical Insurance Prediction")
-st.write("This app predicts **medical insurance costs** based on user details.
-    Please fill in the form below and click **Predict**")
+st.write("This app predicts **medical insurance costs** based on user details.Please fill in the form below and click **Predict**")
 
 # User inputs in 2-column layout
 st.header("User Information")
