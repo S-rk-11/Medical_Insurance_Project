@@ -13,7 +13,7 @@ st.title("Medical Insurance Prediction")
 st.markdown(
     """
     This app predicts **medical insurance costs** based on user details.
-    Please fill in the form below and click **Predict".
+    Please fill in the form below and click **Predict**.
     """
 )
 
